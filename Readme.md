@@ -2,14 +2,14 @@
 
 Learning web page parsing with Node.js 
 
-## Link to code reporitory
+## Link to code repository
 * [GitHub](https://github.com/22nds/lfu-node-parsing)
-* [Zip file](https://github.com/22nds/lfu-node-parsing/archive/master.zip)
+* [.zip file](https://github.com/22nds/lfu-node-parsing/archive/master.zip)
 
 
 ## Links to test
 * [Dyke.tech](https://www.dyke.tech)
-* [LFU](https://www.lezfemuniverza.org)
+* [Lesbian Feminist University](https://www.lezfemuniverza.org)
 * [Sektor Ž](https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast)
 * [Sinister Wisdom](http://www.sinisterwisdom.org/archive)
 
