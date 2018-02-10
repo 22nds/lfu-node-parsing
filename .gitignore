@@ -1,3 +1,8 @@
 /node_modules
 /.git
 package-lock.json
+/04_download_files/images
+/04_download_files/downloads
+/05_complete_code/LFU_images
+/05_complete_code/mp3s
+/05_complete_code/pdfs
