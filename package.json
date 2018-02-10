@@ -1,0 +1,21 @@
+{
+    "name": "lfu-node-parsing",
+    "version": "1.0.0",
+    "description": "Workshop - Learning web page parsing with Node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./javascript/index.js"
+    },
+    "author": "Maja Kraljic",
+    "license": "ISC",
+    "dependencies": {},
+    "keywords": [],
+    "devDependencies": {
+        "async": "^2.6.0",
+        "axios": "^0.17.1",
+        "cheerio": "^1.0.0-rc.2",
+        "colors": "^1.1.2",
+        "download": "^6.2.5"
+    }
+}
