@@ -1,3 +1,7 @@
+# LFU Workshop
+
+Learning web page parsing with Node.js 
+
 ## Link to code reporitory
 * [GitHub](https://github.com/22nds/lfu-node-parsing)
 * [Zip file](https://github.com/22nds/lfu-node-parsing/archive/master.zip)
