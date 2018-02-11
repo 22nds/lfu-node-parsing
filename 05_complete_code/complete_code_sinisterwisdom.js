@@ -12,7 +12,9 @@ axios.get("http://www.sinisterwisdom.org/archive")
 
         $('.field-items a').each(function(i, elem) {
             var link = $(this).attr('href');
+
             //console.log(link.substr(-3))
+
             if (link.substr(-3) === "pdf") {
                 pdfs.push(link);
             }
@@ -30,12 +32,13 @@ axios.get("http://www.sinisterwisdom.org/archive")
 
                 console.log('DONE.');
 
-                callback(null, true)
-            })
+                callback(null, true);
+            });
         }, function(err, result) {
+            // if (err) console.log(err);
             console.log('All files are downloaded.');
         });
     })
     .catch((err) => {
         console.log(err);
-    })
+    });

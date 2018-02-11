@@ -27,12 +27,13 @@ axios.get("https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast")
 
                 console.log('DONE.');
 
-                callback(null, true)
-            })
+                callback(null, true);
+            });
         }, function(err, result) {
+            // if (err) console.log(err);
             console.log('All files are downloaded.');
         });
     })
     .catch((err) => {
         console.log(err);
-    })
+    });

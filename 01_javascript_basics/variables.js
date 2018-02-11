@@ -1,4 +1,6 @@
-var colors = require('colors/safe');
+/** 
+ * Javascript Basics
+ */
 
 //  Comment 
 
@@ -12,6 +14,8 @@ var colors = require('colors/safe');
  */
 var number = 1;
 number = 5;
+
+// display value in the console
 console.log(number);
 
 /** 
@@ -20,12 +24,17 @@ console.log(number);
 
 var word;
 word = 'LFU';
+
+// display value in the console
 console.log(word.length);
 
 /** 
  * Boolean
  */
 var bool = true;
-console.log(colors.green(bool));
-var bool = false;
-console.log(colors.red(bool));
+// display value in the console
+console.log(bool);
+
+// reassign value of the variable
+bool = false;
+console.log(bool);

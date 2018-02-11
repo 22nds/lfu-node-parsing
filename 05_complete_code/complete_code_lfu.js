@@ -19,4 +19,4 @@ axios.get("https://www.lezfemuniverza.org/")
     })
     .catch((err) => {
         console.log(err);
-    })
+    });

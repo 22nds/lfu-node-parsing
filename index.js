@@ -1,9 +1,12 @@
 var colors = require('colors/safe');
 
+console.log("Write to the console.");
+
 var volume = ` 	
  ▁ ▂ ▃ ▄ ▅ ▆ █
 `;
 
+console.log(volume);
 console.log(colors.rainbow(volume));
 
 

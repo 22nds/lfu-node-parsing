@@ -1,3 +1,10 @@
+/** 
+ * Download files defined in array 
+ * - Define URLs
+ * - Destination folder 
+ * - Final message
+ */
+
 const download = require('download');
 
 // DOWNLOAD MULTIPLE FILES
