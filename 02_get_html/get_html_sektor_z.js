@@ -1,12 +1,20 @@
+/**
+ * Axios is a promise based HTTP client for the browser and node.js
+ * 
+ * https://www.npmjs.com/package/axios
+ * 
+ * Output
+ * ======
+ * Display the html of the LFU page. 
+ */
+
 const axios = require('axios');
 
-axios.get("https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast")
+axios.get('https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast')
     .then((response) => {
-        console.log(response)
-        console.log(response.config.url) // Address of the page
-        console.log(response.status) // server status 200 is OK
-        console.log(response.data) // all html of the site
+        // Display all html of the site
+        console.log(response.data);
     })
     .catch((err) => {
         console.log(err);
-    })
+    });

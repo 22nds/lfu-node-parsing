@@ -1,3 +1,8 @@
+/**
+ * Download all images from LFU web page
+ * into folder LFU_images.
+ */
+
 const axios = require('axios');
 const cheerio = require('cheerio');
 const download = require('download');

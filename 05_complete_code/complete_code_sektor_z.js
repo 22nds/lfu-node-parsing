@@ -1,3 +1,14 @@
+/**
+ * Async
+ * 
+ * Download one file at the time
+ * https://caolan.github.io/async/
+ * https://www.npmjs.com/package/async
+ * 
+ * Download all images from Sektor Z
+ * into folder mp3s.
+ */
+
 const axios = require('axios');
 const async = require('async');
 const cheerio = require('cheerio');

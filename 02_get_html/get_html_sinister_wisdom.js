@@ -10,7 +10,7 @@
 
 const axios = require('axios');
 
-axios.get('https://www.lezfemuniverza.org/')
+axios.get('http://www.sinisterwisdom.org/archive')
     .then((response) => {
         // Display all html of the site
         console.log(response.data);
