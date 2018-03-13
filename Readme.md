@@ -1,22 +1,25 @@
-# LFU Workshop
-Learning web page parsing with Node.js
+# Get Data from the Web
+Learning web page parsing and file downloading with JavaScript and Node.js.
 
-## Link to code repository
+Workshop on March 13 2018, LFU. 
+
+## Links to code repository
 * [GitHub](https://github.com/22nds/lfu-node-parsing) 
 * [.zip file](https://github.com/22nds/lfu-node-parsing/archive/master.zip)
 
-## Links to test
+## Links to pages used in the workshop
 * [Dyke.tech](https://www.dyke.tech) 
 * [Lesbian Feminist University](https://www.lezfemuniverza.org) 
 * [Sektor Ž](https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast) 
 * [Sinister Wisdom](http://www.sinisterwisdom.org/archive)
 
 ## Reference links
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
-* [Node](https://nodejs.org/en/) 
+* [Node](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [npm](https://www.npmjs.com/) 
 * [colors](https://www.npmjs.com/package/colors) 
 * [axios](https://www.npmjs.com/package/axios) 
 * [cheerio](https://www.npmjs.com/package/cheerio) 
 * [download](https://www.npmjs.com/package/download)
 * [async](https://www.npmjs.com/package/async)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
