@@ -1,7 +1,7 @@
 # Get Data from the Web
 Learning web page parsing and file downloading with JavaScript and Node.js.
 
-Workshop on March 13 2018, LFU. 
+Workshop on March 13 2018 and March 27 2018 @ LFU. 
 
 ## Links to code repository
 * [GitHub](https://github.com/22nds/lfu-node-parsing) 
