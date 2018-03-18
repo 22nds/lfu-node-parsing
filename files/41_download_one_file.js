@@ -4,14 +4,14 @@
  * 
  * Download one file:
  * - Define URL
- * - Define folder - downloads
+ * - Define folder - ./41_image
  * - Define success message
  */
 
 const download = require('download');
 
-var file = 'https://radiostudent.si/sites/default/files/posnetki/Sektor%20%C5%BD/2012-12-15-sektor-%C5%BE-feministke-vstanite.mp3';
+var file = 'https://www.lezfemuniverza.org/wp-content/uploads/2018/02/lesbians-1974-SF-Gay-Parade-Rink-Foto-1-e1517516581958.jpg';
 
-download(file, './downloads').then(() => {
+download(file, './41_image').then(() => {
     console.log('Downloaded: ' + file);
 });

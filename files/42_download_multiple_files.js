@@ -4,7 +4,7 @@
  * 
  * Download files defined in the array 
  * - Define URLs
- * - Define folder - images
+ * - Define folder - ./42_images
  * - Define success message
  */
 
@@ -19,7 +19,7 @@ var files = [
 ];
 
 files.forEach((file) => {
-    download(file, './images').then(() => {
+    download(file, './42_images').then(() => {
         console.log('Downloaded: ' + file);
     });
 });

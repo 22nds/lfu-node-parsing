@@ -1,6 +1,6 @@
 /**
  * Download all images from LFU web page
- * into folder LFU_images.
+ * into folder 50_LFU_images.
  */
 
 const axios = require('axios');
@@ -17,7 +17,7 @@ axios.get("https://www.lezfemuniverza.org/")
 
             var link = $(this).attr('src');
 
-            download(link, './LFU_images').then(() => {
+            download(link, './50_LFU_images').then(() => {
                 console.log('Downloaded: ' + link);
             });
         });

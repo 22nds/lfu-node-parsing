@@ -6,7 +6,7 @@
  * https://www.npmjs.com/package/async
  * 
  * Download all pdfs from sinisterwisdom.org
- * into folder pdfs.
+ * into folder 52_SinisterWisdom_PDF.
  */
 
 const axios = require('axios');
@@ -39,7 +39,7 @@ axios.get("http://www.sinisterwisdom.org/archive")
 
             console.log("Downloading: " + pdf);
 
-            download(pdf, './pdfs').then(() => {
+            download(pdf, './52_SinisterWisdom_PDF').then(() => {
 
                 console.log('DONE.');
 

@@ -6,7 +6,7 @@
  * https://www.npmjs.com/package/async
  * 
  * Download all images from Sektor Z
- * into folder mp3s.
+ * into folder 51_Sektor_Z_mp3.
  */
 
 const axios = require('axios');
@@ -34,7 +34,7 @@ axios.get("https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast")
 
             console.log("Downloading: " + mp3);
 
-            download(mp3, './mp3s').then(() => {
+            download(mp3, './51_Sektor_Z_mp3').then(() => {
 
                 console.log('DONE.');
 
