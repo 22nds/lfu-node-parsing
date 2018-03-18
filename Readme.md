@@ -3,6 +3,9 @@ Learning web page parsing and file downloading with JavaScript and Node.js.
 
 Workshop on March 13 2018 and March 27 2018 @ LFU. 
 
+## Presentation
+* [Presentation](https://docs.google.com/presentation/d/1iIkwVhYZs9BS8YT3UzRUebmd7z2lkMUq51MHs9jYUdI/edit?usp=sharing)
+
 ## Links to code repository
 * [GitHub](https://github.com/22nds/lfu-node-parsing) 
 * [.zip file](https://github.com/22nds/lfu-node-parsing/archive/master.zip)
