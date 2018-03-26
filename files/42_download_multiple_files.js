@@ -8,7 +8,7 @@
  * - Define success message
  */
 
-const download = require('download');
+const download = require('progress-download');
 
 // DOWNLOAD MULTIPLE FILES
 var files = [

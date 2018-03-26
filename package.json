@@ -9,13 +9,12 @@
     },
     "author": "Maja Kraljic",
     "license": "MIT",
-    "dependencies": {},
     "keywords": [],
-    "devDependencies": {
+    "dependencies": {
         "async": "^2.6.0",
         "axios": "^0.17.1",
         "cheerio": "^1.0.0-rc.2",
         "colors": "^1.1.2",
-        "download": "^6.2.5"
+        "progress-download": "^1.0.4"
     }
 }

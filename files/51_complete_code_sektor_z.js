@@ -12,7 +12,7 @@
 const axios = require('axios');
 const async = require('async');
 const cheerio = require('cheerio');
-const download = require('download');
+const download = require('progress-download')
 
 axios.get("https://radiostudent.si/dru%C5%BEba/sektor-%C5%BE/podcast")
     .then((response) => {

@@ -5,7 +5,7 @@
 
 const axios = require('axios');
 const cheerio = require('cheerio');
-const download = require('download');
+const download = require('progress-download');
 
 axios.get("https://www.lezfemuniverza.org/")
     .then((response) => {
